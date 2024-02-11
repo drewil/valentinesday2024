@@ -87,6 +87,7 @@ h2 {
 	color: rgb(255, 255, 255);
 	text-transform: lowercase;
 	text-align: center;
+	text-decoration: none;
 
 	cursor: pointer;
 }
