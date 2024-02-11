@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root { --base: 1em; }
+
+html {
+	background-color: rgb(250, 200, 215);
+}
+
+header {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	gap: calc(var(--base) * 0.35);
+}
+
+h1 {
+	font-family: nunito sans;
+	font-weight: 900;
+	font-size: calc(var(--base) * 0.75);
+	line-height: calc(var(--base) * 1);
+	color: #000000;
+	text-transform: uppercase;
+	text-align: left;
+
+	margin: 1em 0 1em 0;
+}
+
+img[src="favorite_FILL1_wght400_GRAD0_opsz24.svg"] {
+	height: calc(var(--base) * 0.75);
+	width: auto;
+
+	margin: calc(var(--base) * 0.75) 0;
+}
+
+body {
+	margin: calc(var(--base) * 4);
+}
+
+main {
+	margin-top: calc(var(--base) * 1.5);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: calc(var(--base) * 2);
+}
+
+h2 {
+	font-family: nunito;
+	font-weight: 400;
+	font-size: calc(var(--base) * 2);
+	line-height: calc(var(--base) * 1.125);
+	color: #3a0000;
+	text-align: left;
+
+	margin: 0;
+}
+
+.highlight {
+	font-weight: 500;
+	color: #ff0000;
+}
+
+.buttons {
+	width: 100%;
+
+	display: flex; 
+	flex-direction: row;
+	gap: calc(var(--base) * 0.5);
+}
+
+button {
+	width: 100%;
+
+	padding: calc(var(--base) * 0.5) calc(var(--base) * 1);
+	border-radius: calc(var(--base) * 0.5);
+	background-color: #3a0000;
+	border: calc(var(--base) * 0)
+
+	font-family: nunito;
+	font-weight: 500;
+	font-size: calc(var(--base) * 1.2);
+	line-height: calc(var(--base) * 1);
+	color: rgb(255, 255, 255);
+	text-transform: lowercase;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ff0000;
+}
+
+img[src="Vday1.jpg"] {
+	width: 100%;
+	height: auto;
+
+	border-radius: calc(var(--base) * 0.5);
+}
