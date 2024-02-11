@@ -55,7 +55,7 @@ main {
 h2 {
 	font-family: nunito;
 	font-weight: 400;
-	font-size: calc(var(--base) * 1.5);
+	font-size: calc(var(--base) * 1.75);
 	line-height: calc(var(--base) * 1.125);
 	color: #3a0000;
 	text-align: left;
