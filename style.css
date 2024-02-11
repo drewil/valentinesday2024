@@ -69,10 +69,10 @@ h2 {
 
 	display: flex; 
 	flex-direction: row;
-	gap: calc(var(--base) * 0.5);
+	gap: calc(var(--base) * 0.25);
 }
 
-button {
+.button {
 	width: 100%;
 
 	padding: calc(var(--base) * 0.5) calc(var(--base) * 1);
@@ -92,7 +92,7 @@ button {
 }
 
 button:hover {
-	background-color: #ff0000;
+	background-color:#ff0000;
 }
 
 img[src="Vday1.jpg"] {
