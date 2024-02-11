@@ -85,7 +85,6 @@ h2 {
 	font-size: calc(var(--base) * 1.2);
 	line-height: calc(var(--base) * 1);
 	color: rgb(255, 255, 255);
-	text-transform: lowercase;
 	text-align: center;
 	text-decoration: none;
 
