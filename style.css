@@ -82,7 +82,7 @@ a {
 }
 
 .button {
-	font-family: nunito sans;
+	font-family: nunito;
 	font-weight: 400;
 	font-size: calc(var(--base) * 1.2);
 	line-height: calc(var(--base) * 1);
